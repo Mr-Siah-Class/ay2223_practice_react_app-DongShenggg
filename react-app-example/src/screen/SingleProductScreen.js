@@ -9,7 +9,7 @@ class SingleProductScreen extends React.Component
     render()
     {
         return (
-            <div className='Main'>
+            <div id='Main'>
                 <h1>Product {this.props.productId}</h1>
             </div>
         );
