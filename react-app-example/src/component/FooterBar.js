@@ -17,3 +17,4 @@ class FooterBar extends React.Component
 }
 
 export default FooterBar;
+    
