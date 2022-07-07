@@ -9,7 +9,7 @@ class NavBar extends React.Component
     render()
     {
         return (
-            <div className='Nav'>
+            <div id='Nav'>
                 <a href='/'>Home</a>
                 <a href='/products'>Products</a>
                 <a href='/cart'>Cart</a>

@@ -43,7 +43,9 @@ class App extends React.Component
                     <Route path="/cart" element={<CartScreen/>}/>
                     <Route path="*" element={<NoScreen/>}/>
                   </Routes>
+                  
                 </BrowserRouter>
+                <FooterBar/>
             </div>
         );
     }
